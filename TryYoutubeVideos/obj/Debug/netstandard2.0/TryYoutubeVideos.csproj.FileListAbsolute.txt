@@ -1,0 +1,12 @@
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos\bin\Debug\netstandard2.0\TryYoutubeVideos.deps.json
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos\bin\Debug\netstandard2.0\TryYoutubeVideos.dll
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos\bin\Debug\netstandard2.0\TryYoutubeVideos.pdb
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos\obj\Debug\netstandard2.0\TryYoutubeVideos.csprojAssemblyReference.cache
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos\obj\Debug\netstandard2.0\TryYoutubeVideos.csproj.CoreCompileInputs.cache
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos\obj\Debug\netstandard2.0\TryYoutubeVideos.AssemblyInfoInputs.cache
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos\obj\Debug\netstandard2.0\TryYoutubeVideos.AssemblyInfo.cs
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos\obj\Debug\netstandard2.0\TryYoutubeVideos.dll
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos\obj\Debug\netstandard2.0\TryYoutubeVideos.pdb
