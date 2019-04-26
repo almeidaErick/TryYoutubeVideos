@@ -3,6 +3,9 @@ C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Deb
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\Java.Interop.dll
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\mscorlib.dll
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\Plugin.CurrentActivity.dll
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\Plugin.Media.dll
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\Plugin.Permissions.dll
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\System.dll
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\System.Numerics.dll

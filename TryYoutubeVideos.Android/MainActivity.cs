@@ -7,6 +7,9 @@ using Android.Widget;
 using Android.OS;
 using System.Threading.Tasks;
 using Android.Content;
+using Plugin.CurrentActivity;
+using Plugin.Permissions;
+using Plugin.Permissions.Abstractions;
 
 namespace TryYoutubeVideos.Droid
 {
@@ -22,6 +25,7 @@ namespace TryYoutubeVideos.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            CrossCurrentActivity.Current.Init(this, savedInstanceState);
             //FormsVideoPlayer.Init();
             LoadApplication(new App());
         }

@@ -112,6 +112,9 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "TryYoutubeVideos.Android.dll" comes first in this list. */
 		"TryYoutubeVideos.Android.dll",
 		"FormsViewGroup.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.Media.dll",
+		"Plugin.Permissions.dll",
 		"TryYoutubeVideos.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

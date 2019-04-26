@@ -57,6 +57,7 @@ C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Deb
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\res\mipmap-xxhdpi\launcher_foreground.png
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\res\mipmap-xxxhdpi\icon.png
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\res\mipmap-xxxhdpi\launcher_foreground.png
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\res\xml\file_paths.xml
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\R.cs.flag
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\R.txt
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\uploadflags.txt
@@ -66,6 +67,9 @@ C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Deb
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\linksrc\Java.Interop.dll
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\linksrc\Mono.Android.dll
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\linksrc\mscorlib.dll
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\linksrc\Plugin.CurrentActivity.dll
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\linksrc\Plugin.Media.dll
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\linksrc\Plugin.Permissions.dll
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\linksrc\System.Core.dll
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\linksrc\System.dll
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\linksrc\System.Numerics.dll
@@ -145,6 +149,9 @@ C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Deb
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\mscorlib.dll
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\mscorlib.pdb
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\netstandard.dll
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\Plugin.CurrentActivity.dll
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\Plugin.Media.dll
+C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\Plugin.Permissions.dll
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.pdb
 C:\Users\ealmeida\source\repos\TryYoutubeVideos\TryYoutubeVideos.Android\obj\Debug\81\android\assets\System.Core.dll
