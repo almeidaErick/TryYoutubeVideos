@@ -11,6 +11,7 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
             <Label Text="Welcome to Xamarin.Forms!" 
@@ -23,6 +24,16 @@
                              Grid.Row="1"
                                WidthRequest="200"
                                HeightRequest="200"/>
+            <ScrollView Grid.Row="2">
+                <StackLayout Spacing="10" Padding="10">
+                    <Button x:Name="takePhoto" Text="Take Photo"/>
+                    <Button x:Name="pickPhoto" Text="Pick Photo"/>
+                    <Button x:Name="takeVideo" Text="Take Video"/>
+                    <Button x:Name="pickVideo" Text="Pick Video"/>
+
+                    <Image x:Name="image"/>
+                </StackLayout>
+            </ScrollView>
         </Grid>
         
     </StackLayout>
