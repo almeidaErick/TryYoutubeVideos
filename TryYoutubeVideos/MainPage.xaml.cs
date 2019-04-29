@@ -125,5 +125,22 @@ namespace TryYoutubeVideos
         {
             await Navigation.PushAsync(new CameraPage());
         }
+
+        void OnPlayPauseButtonClicked(object sender, EventArgs args)
+        {
+            if (VideoPlayer.Status == VideoStatus.Playing)
+            {
+                VideoPlayer.Pause();
+            }
+            else if (VideoPlayer.Status == VideoStatus.Paused)
+            {
+                VideoPlayer.Play();
+            }
+        }
+
+        void OnStopButtonClicked(object sender, EventArgs args)
+        {
+            VideoPlayer.Stop();
+        }
     }
 }

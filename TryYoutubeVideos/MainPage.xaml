@@ -19,11 +19,64 @@
            VerticalOptions="CenterAndExpand" 
                    Grid.Row="0"/>
 
-            <video:VideoPlayer x:Name="VideoPlayer"
-                             AutoPlay="true"
-                             Grid.Row="1"
-                               WidthRequest="200"
-                               HeightRequest="200"/>
+            <StackLayout Grid.Row="1">
+                <video:VideoPlayer x:Name="VideoPlayer"
+                             AutoPlay="false"
+                             WidthRequest="200"
+                             HeightRequest="200"
+                             AreTransportControlsEnabled="False"/>
+
+                <ActivityIndicator Grid.Row="0"
+                           Color="Gray"
+                           IsVisible="False">
+                    <ActivityIndicator.Triggers>
+                        <DataTrigger TargetType="ActivityIndicator"
+                             Binding="{Binding Source={x:Reference VideoPlayer},
+                                               Path=Status}"
+                             Value="{x:Static video:VideoStatus.NotReady}">
+                            <Setter Property="IsVisible" Value="True" />
+                            <Setter Property="IsRunning" Value="True" />
+                        </DataTrigger>
+                    </ActivityIndicator.Triggers>
+                </ActivityIndicator>
+
+                <StackLayout 
+                     Orientation="Horizontal"
+                     Margin="0, 10"
+                     BindingContext="{x:Reference VideoPlayer}">
+
+                    <Button Text="&#x25B6;&#xFE0F; Play"
+                    HorizontalOptions="CenterAndExpand"
+                    Clicked="OnPlayPauseButtonClicked">
+                        <Button.Triggers>
+                            <DataTrigger TargetType="Button"
+                                 Binding="{Binding Status}"
+                                 Value="{x:Static video:VideoStatus.Playing}">
+                                <Setter Property="Text" Value="&#x23F8; Pause" />
+                            </DataTrigger>
+
+                            <DataTrigger TargetType="Button"
+                                 Binding="{Binding Status}"
+                                 Value="{x:Static video:VideoStatus.NotReady}">
+                                <Setter Property="IsEnabled" Value="False" />
+                            </DataTrigger>
+                        </Button.Triggers>
+                    </Button>
+
+                    <Button Text="&#x23F9; Stop"
+                    HorizontalOptions="CenterAndExpand"
+                    Clicked="OnStopButtonClicked">
+                        <Button.Triggers>
+                            <DataTrigger TargetType="Button"
+                                 Binding="{Binding Status}"
+                                 Value="{x:Static video:VideoStatus.NotReady}">
+                                <Setter Property="IsEnabled" Value="False" />
+                            </DataTrigger>
+                        </Button.Triggers>
+                    </Button>
+                </StackLayout>
+            </StackLayout>
+            
             <ScrollView Grid.Row="2">
                 <StackLayout Spacing="10" Padding="10">
                     <Button x:Name="takePhoto" Text="Take Photo"/>
